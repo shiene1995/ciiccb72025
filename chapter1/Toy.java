@@ -15,6 +15,7 @@ public class Toy{
     void setPrice(double price){
         this.price = price;
     }
+    
      static public void main(String[] wdfwersdf) {
         Toy toy1 = new Toy();
         toy1.name ="Rage pink";
