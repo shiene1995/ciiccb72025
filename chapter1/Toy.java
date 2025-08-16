@@ -7,7 +7,7 @@ package chapter1;
  */
 
 public class Toy{
-    String name;
+    public String name; //if you want to call the variable outside the file, should be public
     String brand;
     double price;
     int quantity;
@@ -23,7 +23,7 @@ public class Toy{
         toy1.price = 4500;
         toy1.quantity = 12;
         toy1.setPrice((toy1.price*0.5));
-        System.out.println(toy1.price); 
+        System.out.println(toy1.price);
     }
 }
 class Fruit{

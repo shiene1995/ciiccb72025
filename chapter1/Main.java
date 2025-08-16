@@ -9,7 +9,7 @@ public class Main{
         *    is a
         * multiline 
         *comment
-*/
+        */
         Toy toy1 = new Toy();
         toy1.name ="Rage pink";
         toy1.brand = "Lab Vuvu";
@@ -27,8 +27,8 @@ public class Main{
         echo(true); //boolean
     }
 
-    static void echo(String data){System.out.println(data);} //shorten the System.out.println() to echo()
-    static void echo(int data){System.out.println(data);}
+    static void echo(String data){System.out.println(data);}
+    static void echo(int data){System.out.println(data);} //shorten the System.out.println() to echo()
     static void echo(double data){System.out.println(data);}
     static void echo(boolean data){System.out.println(data);}
 }
