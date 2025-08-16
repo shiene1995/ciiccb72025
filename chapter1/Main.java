@@ -18,8 +18,8 @@ public class Main{
         System.out.println();
         Random r = new Random();
         System.out.println(r.nextInt(100));
-        ArrayList al = new ArrayList<>();
-        Date date1 = new Date();
+        //ArrayList al = new ArrayList<>();
+        //Date date1 = new Date();
 
         echo("This is testing from K.Salvador"); //String
         echo(123); //int
