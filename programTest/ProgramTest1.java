@@ -8,7 +8,7 @@ public class ProgramTest1 {
         Scanner inputScanner = new Scanner(System.in);
 
         System.out.print("ENTER ANY STRING : ");
-        String inputString = inputScanner.next();
+        String inputString = inputScanner.nextLine();
 
         System.out.println("\nThe Length of your input is : " + inputString.length());
         System.out.println("Convert to UPPERCASE : " + inputString.toUpperCase());
